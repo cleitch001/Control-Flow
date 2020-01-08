@@ -16,3 +16,20 @@ for i in range(5):
     sum = sum +enter_a_number
 
 print("\nSum of your number is: " + str(sum))
+
+
+"""
+Programmer: Carsyn Leitch
+Date: 1.8.20
+Program:Average Test Scores
+
+This program asks users how many tests they wish to average 
+
+"""
+
+total = 0 
+how_many_tests = int(input("How many tests would you like to average: "))
+print("")
+
+for i in range(how_many_tests): 
+    enter_a_score = int(input("Enter a score: "))
