@@ -8,9 +8,11 @@ It then sums up the numbers
 """
 
 sum = 0
+how_many_numbers = int(input("\nHow many numbers would you like to sum up: "))
+print("")
 
 for i in range(5):
-    enter_a_number = input("enter a number: ")
+    enter_a_number = int(input("\nEnter a Number: "))
     sum = sum +enter_a_number
 
 print("\nSum of your number is: " + str(sum))
