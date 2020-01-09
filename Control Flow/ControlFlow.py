@@ -5,8 +5,8 @@ Program: Running total
 
 This program asks users for five numbers
 It then sums up the numbers
-
-
+"""
+"""
 sum = 0
 how_many_numbers = int(input("\nHow many numbers would you like to sum up: "))
 print("")
@@ -24,7 +24,6 @@ Date: 1.8.20
 Program:Average Test Scores
 
 This program asks users how many tests they wish to average 
-
 """
 
 total = 0 
