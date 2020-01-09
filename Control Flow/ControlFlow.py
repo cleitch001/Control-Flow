@@ -1,41 +1,38 @@
 """
 Programmer: Carsyn Leitch
-Date: 12.20.19
-Program: Guess My Number
+Date: 1.8.20
+Program: Running total
+
+This program asks users for five numbers
+It then sums up the numbers
 """
+"""
+sum = 0
+how_many_numbers = int(input("\nHow many numbers would you like to sum up: "))
+print("")
 
+for i in range(5):
+    enter_a_number = int(input("\nEnter a Number: "))
+    sum = sum +enter_a_number
 
-myNumber = 7
-
-print('\nGuess a number between 1 & 10\n')
-
-# Ask Users to Guess
-guess = int(input("Enter a Guess: "))
-
-# Keep asking users to guess my number until
-# it is equal to myNumber
-while guess != myNumber:
-    print("\nNope, guess again: ")
-    guess = int(input("Enter a Guess: "))
-
-print("\nCongratulations, you guessed my number!!!\n")
-
-
-
-
+print("\nSum of your number is: " + str(sum))
+"""
 
 """
 Programmer: Carsyn Leitch
-Date: 12.20.19
-Program: 1 - 10
+Date: 1.8.20
+Program:Average Test Scores
+
+This program asks users how many tests they wish to average 
 """
 
-x = 1
+total = 0 
+how_many_tests = int(input("How many tests would you like to average: "))
+print("")
 
-# While Loop will see if a condition has been met
-# If not is will run again until the condition
-# Has been met
+for i in range(how_many_tests): 
+    enter_a_score = float(input("Enter a score: "))
+    total = total + enter_a_score
+average = total / how_many_tests
 
-while x <= 10:
-    print(x)
-    x+=1
+print("\nAverage: " + str(round(average, 2)))
