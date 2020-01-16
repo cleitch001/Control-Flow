@@ -1,8 +1,9 @@
-"""
-Programmer: Carsyn Leitch
-Date: 12.20.19
-Program: Guess My Number
-"""
+
+#Programmer: Carsyn Leitch
+#Date: 12.20.19
+#Program: Guess My Number
+
+
 
 
 myNumber = 7
@@ -22,13 +23,10 @@ print("\nCongratulations, you guessed my number!!!\n")
 
 
 
+#Programmer: Carsyn Leitch
+#Date: 12.20.19
+#Program: 1 - 10
 
-
-"""
-Programmer: Carsyn Leitch
-Date: 12.20.19
-Program: 1 - 10
-"""
 
 x = 1
 
