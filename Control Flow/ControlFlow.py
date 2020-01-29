@@ -1,6 +1,5 @@
 
 #Programmer: Carsyn Leitch
-
 #Date: 12.20.19
 #Program: Guess My Number
 
@@ -41,6 +40,18 @@ while x <= 10:
 
 
 #Programmer: Carsyn Leitch
+#Date: 1.23.20
+#Program: While Loop Nested Inside a For Loop
+
+
+for i in range(4):
+    print("For Loop: " + str(i))
+    x = i
+    while x >= 0:
+        print("\tWhile Loop: " + str(x))
+        x = x - 1
+
+#Programmer: Carsyn Leitch
 #Date: 1.8.20
 #Program: Running total
 
@@ -58,6 +69,14 @@ for i in range(5):
 
 print("\nSum of your number is: " + str(sum))
 
+#Programmer: Carsyn Leitch
+#Date: 1.20.20
+#Program: Double For Loop
+
+for i in range(3):
+    print("Outer For Loop" + str(i))
+    for k in range(4):
+        print("\tInner For Loop" + str(k))
 
 #Programmer: Carsyn Leitch
 #Date: 1.8.20
@@ -77,3 +96,8 @@ average = total / how_many_tests
 
 print("\nAverage: " + str(round(average, 2)))
 
+
+
+
+
+print("\n*******************************\n")
