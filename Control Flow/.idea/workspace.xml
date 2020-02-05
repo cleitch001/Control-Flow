@@ -19,7 +19,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -29,7 +29,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="SDK_HOME" value="/usr/bin/python3" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -58,17 +58,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="158" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580479943947">
+    <state x="451" y="158" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580907932334">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="451" y="158" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.948@67.27.1853.948" timestamp="1580479943947" />
-    <state x="482" y="135" key="SettingsEditor" timestamp="1580479430391">
+    <state x="451" y="158" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.948@67.27.1853.948" timestamp="1580907932334" />
+    <state x="482" y="135" key="SettingsEditor" timestamp="1580907863931">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="482" y="135" key="SettingsEditor/67.27.1853.948@67.27.1853.948" timestamp="1580479430391" />
-    <state x="649" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1580478150322">
+    <state x="482" y="135" key="SettingsEditor/67.27.1853.948@67.27.1853.948" timestamp="1580907863931" />
+    <state x="649" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1580908497877">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="649" y="327" key="com.intellij.ide.util.TipDialog/67.27.1853.948@67.27.1853.948" timestamp="1580478150322" />
+    <state x="649" y="327" key="com.intellij.ide.util.TipDialog/67.27.1853.948@67.27.1853.948" timestamp="1580908497877" />
+    <state x="656" y="231" key="search.everywhere.popup" timestamp="1580908559833">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="656" y="231" key="search.everywhere.popup/67.27.1853.948@67.27.1853.948" timestamp="1580908559833" />
   </component>
 </project>
